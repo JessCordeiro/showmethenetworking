@@ -1,0 +1,60 @@
+    /*.page-header {
+        width: 650px;
+        height: 90px;
+        left: 760px;
+        top: 38px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 3000;
+        font-size: 96px;
+        line-height: 144px;
+        text-align: center;
+        color: #E2309B;
+    }
+    
+    .page-header img {
+        width: 550px;
+        height: 800px;
+    }*/
+    
+    #foto1 {
+        display: flex;
+    }
+    
+    .form-group {
+        margin-right: 300px;
+    }
+    
+    h3 {
+        color: #E2309B;
+    }
+    
+    #data {
+        color: black;
+        font-size: larger;
+        font-style: initial;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    
+    #evento {
+        color: #E2309B;
+        font-size: larger;
+        font-style: initial;
+        font-weight: 700;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    #palestrantes {
+        color: #E2309B;
+        font-size: larger;
+        font-style: initial;
+        font-weight: 700;
+        margin-top: 50px;
+        justify-content: center;
+    }
+    
+    .botao {
+        color: purple;
+    }
