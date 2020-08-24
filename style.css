@@ -11,11 +11,21 @@
         text-align: center;
         color: #E2309B;
     }
+    */
     
     .page-header img {
-        width: 550px;
-        height: 800px;
-    }*/
+        margin-top: 0;
+    }
+    
+    h1 {
+        font-family: Poppins;
+        color: #E2309B;
+        font-style: initial;
+        font-weight: bold;
+        line-height: 54px;
+        padding: 20px;
+        font-size: 96px;
+    }
     
     #foto1 {
         display: flex;
@@ -25,20 +35,17 @@
         margin-right: 300px;
     }
     
-    h3 {
-        color: #E2309B;
-    }
-    
     #data {
-        color: black;
-        font-size: larger;
-        font-style: initial;
-        font-weight: 700;
-        margin-top: 50px;
+        font-family: Poppins;
+        color: #E2309B;
+        font-weight: bold;
+        line-height: 54px;
+        padding: 20px;
+        font-size: 50px;
     }
     
     #evento {
-        color: #E2309B;
+        color: #9C3BEC;
         font-size: larger;
         font-style: initial;
         font-weight: 700;
@@ -47,14 +54,57 @@
     }
     
     #palestrantes {
-        color: #E2309B;
-        font-size: larger;
+        color: #9C3BEC;
+        font-size: 24PX;
         font-style: initial;
         font-weight: 700;
         margin-top: 50px;
         justify-content: center;
     }
     
+    h6 {
+        color: #9C3BEC;
+        font-size: 16rem;
+        justify-content: center;
+    }
+    
     .botao {
         color: purple;
+    }
+    
+    #online {
+        font-family: Poppins;
+        color: #9C3BEC;
+        font-weight: bold;
+        line-height: 54px;
+        padding: 20px;
+        font-size: 36px;
+    }
+    
+    .temas {
+        padding: 10px;
+    }
+    
+    #iniciativa {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: black;
+        margin-top: 50px;
+    }
+    
+    .rodape {
+        background-color: #E72098;
+    }
+    
+    .rodape p {
+        font-family: Poppins;
+        color: white;
+        font-size: 15px;
+    }
+    
+    #rodapeimg {
+        display: flex;
+        justify-content: center;
     }
