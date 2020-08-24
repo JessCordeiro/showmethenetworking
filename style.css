@@ -19,9 +19,8 @@
     
     h1 {
         font-family: Poppins;
-        color: #E2309B;
-        font-style: initial;
         font-weight: bold;
+        color: #E2309B;
         line-height: 54px;
         padding: 20px;
         font-size: 96px;
@@ -32,7 +31,15 @@
     }
     
     .form-group {
+        margin-top: 35px;
+    }
+    
+    .form-group input {
         margin-right: 300px;
+        border: 1.5px solid #E2309B;
+        width: 468px;
+        height: 40px;
+        justify-content: center;
     }
     
     #data {
@@ -53,7 +60,14 @@
         justify-content: center;
     }
     
+    .bd-placeholder-img {
+        margin-left: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
     #palestrantes {
+        display: flex;
         color: #9C3BEC;
         font-size: 24PX;
         font-style: initial;
@@ -66,10 +80,26 @@
         color: #9C3BEC;
         font-size: 16rem;
         justify-content: center;
+        margin-left: 140px;
+    }
+    
+    #descrição {
+        margin-left: 140px;
     }
     
     .botao {
         color: purple;
+    }
+    
+    .border {
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    
+    #flex {
+        margin-top: 20px;
     }
     
     #online {
@@ -102,9 +132,11 @@
         font-family: Poppins;
         color: white;
         font-size: 15px;
+        padding: 5px;
     }
     
     #rodapeimg {
-        display: flex;
-        justify-content: center;
+        margin: auto;
+        display: block;
+        text-align: center;
     }

@@ -10,12 +10,12 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-12 col-md-6">
                 <div class="page-header">
                     <img src="/imagens/logo.PNG" width="500px" height="800px" alt="">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-md-6">
                 <h1>1ª LIVE FLEX</h1>
                 <p>
                     Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse p.</em> Proin massa magna.
@@ -25,16 +25,16 @@
                 </p>
                 <div class="row">
                     <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <svg class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
                         <h6>Palestrante 1</h6>
-                        <p>Breve descrição.</p>
+                        <p id="descrição">Breve descrição.</p>
 
                     </div>
                     <!-- /.col-lg-4 -->
                     <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="80" height="80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+                        <svg class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
                         <h6>Palestrante 2</h6>
-                        <p>Breve descrição</p>
+                        <p id="descrição">Breve descrição</p>
 
                     </div>
 
@@ -42,17 +42,13 @@
 
                 <form role="form">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">
-                                Nome
-                            </label>
-                        <input type="name" class="form-control" id="exampleInputName" />
+
+                        <input type="name" class="form-control" placeholder="Nome" id="exampleInputName" />
                     </div>
                     <div class="form-group">
 
-                        <label for="exampleInputPassword1">
-                                Email
-                            </label>
-                        <input type="Email1" class="form-control" id="exampleInputEmail1" />
+
+                        <input type="Email1" class="form-control" placeholder="E-mail" id="exampleInputEmail1" />
                     </div>
                     <button id="botao" type="submit" class="btn btn-primary">
                             Inscrever
@@ -73,32 +69,33 @@
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="evento">
             <div class="row">
                 <div class="col-md-12">
                     <p id="evento">
                         O QUE VOCÊ VERÁ NESSE ENCONTRO?
-                    </p>
+                    </p><br>
                 </div>
             </div>
         </div>
         <div class="temas">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="border border-danger">Tema 1</span>
+                    <span class="border border-secondary">Tema 1</span>
                 </div>
                 <div class="col-md-4">
-                    <span class="border border-danger">Tema 2</span>
+                    <span class="border border-secondary">Tema 2</span>
                 </div>
-                <div class="col-md-4"><span class="border border-danger">Tema 3</span>
+                <div class="col-md-4"><span class="border border-secondary">Tema 3</span>
                 </div>
             </div>
         </div>
         <div class="iniciativa">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/imagens/logo.jpg" width="322px" height="275px" alt="">
+                    <img id="flex" src="/imagens/logo.jpg" width="322px" height="275px" alt="">
                 </div>
                 <div class="col-md-6">
                     <p id="iniciativa">
@@ -116,19 +113,19 @@
                 <div class="col-md-12">
                     <p id="evento">
                         PARA QUEM É RECOMENDADO?
-                    </p>
+                    </p><br>
                 </div>
             </div>
         </div>
         <div class="temas">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="border border-danger">Público 1</span>
+                    <span class="border border-secondary">Público 1</span>
                 </div>
                 <div class="col-md-4">
-                    <span class="border border-danger">Público 2</span>
+                    <span class="border border-secondary">Público 2</span>
                 </div>
-                <div class="col-md-4"><span class="border border-danger">Público 3</span>
+                <div class="col-md-4"><span class="border border-secondary">Público 3</span>
                 </div>
             </div>
         </div>
@@ -156,17 +153,13 @@
 
         <form role="form">
             <div class="form-group">
-                <label for="exampleInputEmail1">
-                        Nome
-                    </label>
-                <input type="name" class="form-control" id="exampleInputName" />
+
+                <input type="name" class="form-control" placeholder="Nome" id="exampleInputName" />
             </div>
             <div class="form-group">
 
-                <label for="exampleInputPassword1">
-                        Email
-                    </label>
-                <input type="Email1" class="form-control" id="exampleInputEmail1" />
+
+                <input type="Email1" class="form-control" placeholder="E-mail" id="exampleInputEmail1" />
             </div>
             <button id="botao" type="submit" class="btn btn-primary">
                     Inscrever
