@@ -22,7 +22,8 @@
             <div class="col-12 col-md-6">
                 <h1>1ª LIVE FLEX</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse p.</em> Proin massa magna.
+                    <strong>Rompa com os padrões!<br></strong> Te convidamos a vir com a gente neste evento, onde a nossa meta é despertar a consciência coletiva sobre a <strong>equidade no mercado de trabalho</strong>. <br><strong>Aqui você tem voz e é representadx.</strong>
+
                 </p>
                 <p id="palestrantes">
                     CONVIDADOS ESPECIAIS
@@ -71,8 +72,8 @@
 
                         </p>
                     </div>
-                    AQUII começa
-                    <div class="col-md-6">
+
+                    <div id="contador" class="col-md-6">
                         <script>
                             var target_date = new Date("august 26, 2020").getTime();
                             var dias, horas, minutos, segundos;
@@ -119,16 +120,16 @@
                                 </tr>
                                 <tr style="height:20px">
                                     <td>
-                                        <p class="legenda">Dias</p>
+                                        <p class="legenda">DIAS</p>
                                     </td>
                                     <td>
-                                        <p class="legenda">Horas</p>
+                                        <p class="legenda">HORAS</p>
                                     </td>
                                     <td>
-                                        <p class="legenda">Min</p>
+                                        <p class="legenda">MINUTOS</p>
                                     </td>
                                     <td>
-                                        <p class="legenda">Seg</p>
+                                        <p class="legenda">SEGUNDOS</p>
                                     </td>
                                 </tr>
                             </table>
@@ -136,7 +137,7 @@
                             </table>
                         </div>
 
-                        div do col md</div>
+                    </div>
                 </div>
             </div>
 
@@ -153,12 +154,13 @@
         <div class="temas">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="border border-secondary">Tema 1</span>
+                    <span>Líderes e representantes da causa que vão te mostrar que é possível chegar lá!</span>
                 </div>
                 <div class="col-md-4">
-                    <span class="border border-secondary">Tema 2</span>
+                    <span>Pessoas compartilhando seus posicionamentos e o mais importante: Dispostas a te ouvir.
+                    </span>
                 </div>
-                <div class="col-md-4"><span class="border border-secondary">Tema 3</span>
+                <div class="col-md-4"><span>R-E-P-R-E-S-E-N-T-A-T-I-V-I-D-A-D-E: O ponto mais importante desse evento.</span>
                 </div>
             </div>
         </div>
@@ -190,12 +192,13 @@
         <div class="temas">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="border border-secondary">Público 1</span>
+                    <span>Feito pra você, simples assim. Parece bobo, não é?
+                    </span>
                 </div>
                 <div class="col-md-4">
-                    <span class="border border-secondary">Público 2</span>
+                    <span>Nosso evento é sobre equidade e queremos todo mundo presente!</span>
                 </div>
-                <div class="col-md-4"><span class="border border-secondary">Público 3</span>
+                <div class="col-md-4"><span>Tá esperando o que para se inscrever? Te vemos dia 26 ;)</span>
                 </div>
             </div>
         </div>
@@ -218,70 +221,8 @@
 
                     </p>
                 </div>
-                <div class="col-md-6">
-                    <script>
-                        var target_date = new Date("august 26, 2020").getTime();
-                        var dias, horas, minutos, segundos;
-                        var regressiva = document.getElementById("regressiva");
-
-                        setInterval(function() {
-
-                            var current_date = new Date().getTime();
-                            var segundos_f = (target_date - current_date) / 1000;
-
-                            dias = parseInt(segundos_f / 86400);
-                            segundos_f = segundos_f % 86400;
-
-                            horas = parseInt(segundos_f / 3600);
-                            segundos_f = segundos_f % 3600;
-
-                            minutos = parseInt(segundos_f / 60);
-                            segundos = parseInt(segundos_f % 60);
-
-                            document.getElementById('dia').innerHTML = dias;
-                            document.getElementById('hora').innerHTML = horas;
-                            document.getElementById('minuto').innerHTML = minutos;
-                            document.getElementById('segundo').innerHTML = segundos;
 
 
-                        }, 1000);
-                    </script>
-                    <div class="contagem">
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class="numero" id="dia"></div>
-                                </td>
-                                </td>
-                                <td>
-                                    <div class="numero" id="hora"></div>
-                                </td>
-                                <td>
-                                    <div class="numero" id="minuto"></div>
-                                </td>
-                                <td>
-                                    <div class="numero" id="segundo"></div>
-                                </td>
-                            </tr>
-                            <tr style="height:20px">
-                                <td>
-                                    <p class="legenda">Dias</p>
-                                </td>
-                                <td>
-                                    <p class="legenda">Horas</p>
-                                </td>
-                                <td>
-                                    <p class="legenda">Min</p>
-                                </td>
-                                <td>
-                                    <p class="legenda">Seg</p>
-                                </td>
-                            </tr>
-                        </table>
-
-                        </table>
-                    </div>
-                </div>
             </div>
         </div>
 
