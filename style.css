@@ -61,7 +61,7 @@
     }
     
     .bd-placeholder-img {
-        margin-left: 130px;
+        margin-left: 105px;
         display: flex;
         justify-content: space-between;
     }
@@ -69,7 +69,7 @@
     #palestrantes {
         display: flex;
         color: #9C3BEC;
-        font-size: 24PX;
+        font-size: 36px;
         font-style: initial;
         font-weight: 700;
         margin-top: 50px;
@@ -80,15 +80,20 @@
         color: #9C3BEC;
         font-size: 16rem;
         justify-content: center;
-        margin-left: 140px;
+        margin-left: 115px;
     }
     
     #descrição {
-        margin-left: 140px;
+        margin-left: 115px;
     }
     
-    .botao {
-        color: purple;
+    #botao {
+        background-color: #E2309B;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        width: 468px;
+        height: 40px;
     }
     
     .border {
@@ -121,7 +126,7 @@
         font-weight: normal;
         font-size: 18px;
         color: black;
-        margin-top: 50px;
+        margin-top: 80px;
     }
     
     .rodape {
